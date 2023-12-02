@@ -141,7 +141,7 @@ public class GameTests : InputTestFixture
     }
 
     [UnityTest]
-    public IEnumerator PlayerCanRotateLRightWithGamepadLeftStickRight()
+    public IEnumerator PlayerCanRotateRightWithGamepadLeftStickRight()
     {
         Press(_gamepad.leftStick.right);
         yield return new WaitForSeconds(0.1f);
